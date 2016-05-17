@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">WebServiceLab</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="course_id_hint">Enter Course Id (Ex: TCSS450) </string>
+    <string name="course_short_desc_hint">Enter Course Short Description (Ex: Mobile App Programming) </string>
+    <string name="course_long_desc_hint">Enter Course Long Description</string>
+    <string name="course_prereqs_hint">Enter prereqs</string>
+    <string name="add_course_text">Add Course</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="sign_in_id">Enter your userid</string>
+    <string name="sign_in_pw">Password</string>
+    <string name="sign_in_but">Sign In</string>
+
+    <!--pref-->
+    <string name="LOGIN_PREFS">edu.uw.tacoma.yyang3.webservicelab.PREFS</string>
+    <string name="LOGGEDIN">loggedin</string>
+    <string name="LOGIN_FILE"> edu.uw.tacoma.yyang3.webservicelab.LOGIN_FILE</string>
+
+    <!--menu-->
+    <string name="Log_out">Log out</string>
+
+    <!--DB-->
+    <string name="CREATE_COURSE_SQL">
+        CREATE TABLE IF NOT EXISTS Course
+        (id TEXT PRIMARY KEY, shortDesc TEXT,
+        longDesc TEXT, prereqs TEXT)
+    </string>
+    <string name="DROP_COURSE_SQL">
+        DROP TABLE IF EXISTS Course
+    </string>
+
+</resources>
